@@ -1,0 +1,13 @@
+class:
+    class_name: 友情链接
+    link_list:
+      1:
+        name: Frewen.Wong掘金
+        link: https://juejin.im/user/57dce6c50bd1d00057ea988a
+        avatar: https://cdn.xxxxx.top/avatar.png
+        descr: xxxxxxx
+      2:
+        name: Frewen.Wong简书
+        link: https://www.jianshu.com/u/47b438021c63
+        avatar: https://xxxxx/avatar.png
+        descr: xxxxxxx  
