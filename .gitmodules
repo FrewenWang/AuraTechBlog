@@ -1,0 +1,4 @@
+[submodule "source/_posts/01.AuraTechNotes"]
+	path = source/_posts/01.AuraTechNotes
+	url = git@git.zhlh6.cn:FrewenWang/AuraTechNotes.git
+	branch = main
