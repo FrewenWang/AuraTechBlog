@@ -1,3 +1,15 @@
+---
+title: 使用Hexo搭建个人技术博客网站
+date: 2014-07-12 00:00:00
+updated: 2014-07-12 00:00:00
+tags: [博客,Blog]
+categories	【可選】文章分類
+---
+
+
+
+
+
 ## 安装NodeJS
 
 我们先看一下自己本地是否有node环境
@@ -21,27 +33,27 @@ v16.15.1
 
 
 
-## 配置Hexo
+## 安装Hexo
 
 在cmd或者其他命令行工具下输入如下：
 
 ```shell
-npm install -g hexo-cli
+npm install hexo-cli -g
 
 // 安装完成之后，显示 输入命令
 hexo -v
 
- hexo -v
+(base) ➜  AuraTechBlog git:(main) ✗ hexo -v
 INFO  Validating config
-INFO
+INFO  
   ===================================================================
-
-      #####  #    # ##### ##### ###### #####  ###### #      #   #
-      #    # #    #   #     #   #      #    # #      #       # #
-      #####  #    #   #     #   #####  #    # #####  #        #
-      #    # #    #   #     #   #      #####  #      #        #
-      #    # #    #   #     #   #      #   #  #      #        #
-      #####   ####    #     #   ###### #    # #      ######   #
+                                                                     
+      #####  #    # ##### ##### ###### #####  ###### #      #   #    
+      #    # #    #   #     #   #      #    # #      #       # #     
+      #####  #    #   #     #   #####  #    # #####  #        #     
+      #    # #    #   #     #   #      #####  #      #        #      
+      #    # #    #   #     #   #      #   #  #      #        #    
+      #####   ####    #     #   ###### #    # #      ######   #  
 
                             4.4.0
   ===================================================================
@@ -49,33 +61,26 @@ hexo: 6.3.0
 hexo-cli: 4.3.0
 os: darwin 21.6.0 12.6
 
-node: 16.15.1
-v8: 9.4.146.24-node.21
+node: 18.11.0
+v8: 10.2.154.15-node.12
 uv: 1.43.0
 zlib: 1.2.11
 brotli: 1.0.9
 ares: 1.18.1
-modules: 93
+modules: 108
 nghttp2: 1.47.0
 napi: 8
-llhttp: 6.0.4
-openssl: 1.1.1o+quic
-cldr: 40.0
-icu: 70.1
-tz: 2021a3
+llhttp: 6.0.10
+openssl: 3.0.5+quic
+cldr: 41.0
+icu: 71.1
+tz: 2022b
 unicode: 14.0
-ngtcp2: 0.1.0-DEV
+ngtcp2: 0.8.1
+nghttp3: 0.7.0
 ```
 
-#### 下载Hexo 工具
-
-安装完成之后，显示 输入命令
-
-
-
 #### 初始化博客
-
-
 
 ```shell
 $ hexo init <your_blog>
@@ -91,15 +96,13 @@ $ npm install
 
 
 
-## 安装博客主题
+### 设置博客主题
+
+文章参考：https://butterfly.js.org/
 
 安装主题的网站：https://hexo.io/themes/
 
-
-
 这是我比较喜欢的主题：https://github.com/jerryc127/hexo-theme-butterfly
-
-
 
 具体安装当时见主题的介绍页面
 
@@ -111,6 +114,20 @@ npm i hexo-theme-butterfly
 
 // 更新
 npm update hexo-theme-butterfly
+```
+
+还有另外一种安装方式：
+
+```shell
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+# 如果想要安裝比較新的 dev 分支，可以
+git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+```
+
+修改 Hexo 根目錄下的 _config.yml，把主題改為butterfly
+
+```shell
+theme: butterfly
 ```
 
 
@@ -216,6 +233,12 @@ frewen.wang
 
 
 
+## 图床设置
+
+我们写博客最重要的就是选择自己的图床了。关于图床的相关内容，这里我就不再赘述，大家可以看我的自己的另一篇博客。
+
+至此，Mac上搭建基于Github的Hexo博客就完成了，请继续吧。
+
 
 
 
@@ -228,14 +251,3 @@ hexo new  "postName"
 
 
 
-
-
-
-
-
-
-## 图床设置
-
-我们写博客最重要的就是选择自己的图床了。关于图床的相关内容，这里我就不再赘述，大家可以看我的自己的另一篇博客。
-
-至此，Mac上搭建基于Github的Hexo博客就完成了，请继续吧。
