@@ -3,7 +3,6 @@ title: 使用Hexo搭建个人技术博客网站
 date: 2014-07-12 00:00:00
 updated: 2014-07-12 00:00:00
 tags: [博客,Blog]
-categories	【可選】文章分類
 ---
 
 
