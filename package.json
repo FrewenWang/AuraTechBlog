@@ -5,6 +5,10 @@
   "hexo": {
     "version": "6.3.0"
   },
+  "scripts": {
+    "start_server": "hexo clean && hexo g && hexo s",
+    "depoly": "hexo clean && hexo g && hexo d"
+  },
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-algolia": "^1.3.2",
