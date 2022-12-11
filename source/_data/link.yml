@@ -1,0 +1,31 @@
+- class_name: 技术博客
+  class_desc: 值得推荐的博客网站
+  link_list:
+  - name: Github
+    link: https://github.com/FrewenWang
+    avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+    descr: Github技术博客
+  - name: 稀土掘金
+    link: https://juejin.cn/user/254742431020583
+    avatar: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/e08da34488b114bd4c665ba2fa520a31.svg
+    descr: 技术博客网站
+  - name: Twitter
+    link: https://twitter.com/FrewenWong
+    avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+    descr: 社交分享平台
+
+- class_name: 友情链接
+  class_desc: 设计优职坊
+  link_list:
+  - name: Axure学院
+    link: https://www.axureschool.cn/
+    avatar: http://www.axureschool.cn/wp-content/uploads/2019/07/axure%E5%AD%A6%E9%99%A2px_2019.07.14.png
+    descr: Axure教程网
+  - name: 优职资源网
+    link: http://ziyuan.youzhifang.cn/
+    avatar: http://ziyuanimage.youzhifang.cn/wp-content/uploads/2021/07/1626919572-6f7a55fda01e3a0.png
+    descr: 优职坊资源网
+  - name: 优职坊
+    link: https://www.youzhifang.net/
+    avatar: http://www.youzhifang.net/wp-content/uploads/2021/05/%E4%BC%98%E8%81%8C%E5%9D%8A%E6%96%B0logo.png
+    descr: 优职坊
